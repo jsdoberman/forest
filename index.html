@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Лісовий Квартал</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="header__wrapper">
+            <div class="header__logo">
+                <a href="#"><img src="img/logo.png" alt="logo"></a>
+            </div>
+            <nav class="header__menu">
+                <ul class="header__menu-block">
+                    <li class="header__menu-item"><a href="#">Про проєкт</a></li>
+                    <li class="header__menu-item"><a href="#">Галерея</a></li>
+                    <li class="header__menu-item"><a href="#">Хід будівництва</a></li>
+                    <li class="header__menu-item"><a href="#">Планування</a></li>
+                    <li class="header__menu-item"><a href="#">Новини</a></li>
+                    <li class="header__menu-item"><a href="#">Умови придбання</a></li>
+                    <li class="header__menu-item"><a href="#">Контакти</a></li>
+                </ul>
+
+            </nav>
+            
+
+            <div class="header__right">
+                <a class="header__right-tell" href="tel:0445000070">044 500 00 70</a>
+                <div class="header__right-soc">
+                    <a href="#"><svg class="t-sociallinks__svg" width="30px" height="30px" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"> <path fill-rule="evenodd" clip-rule="evenodd" d="M50 100c27.6142 0 50-22.3858 50-50S77.6142 0 50 0 0 22.3858 0 50s22.3858 50 50 50Zm3.431-73.9854c-2.5161.0701-5.171.6758-7.0464 2.4577-1.5488 1.4326-2.329 3.5177-2.5044 5.602-.0534 1.4908-.0458 2.9855-.0382 4.4796.0058 1.1205.0115 2.2407-.0085 3.3587-.6888.005-1.3797.0036-2.0709.0021-.9218-.0019-1.8441-.0038-2.7626.0096 0 .8921.0013 1.7855.0026 2.6797.0026 1.791.0052 3.5853-.0026 5.3799.9185.0134 1.8409.0115 2.7627.0096.6912-.0015 1.382-.0029 2.0708.0021.0155 3.5565.0127 7.1128.0098 10.669-.0036 4.4452-.0072 8.8903.0252 13.3354 1.8903-.0134 3.7765-.0115 5.6633-.0095 1.4152.0014 2.8306.0028 4.2484-.0022.0117-4.0009.0088-7.9986.0058-11.9963-.0029-3.9979-.0058-7.9957.0059-11.9964.9533-.005 1.9067-.0036 2.86-.0021 1.2713.0019 2.5425.0038 3.8137-.0096.396-2.679.7335-5.3814.9198-8.0947-1.2576-.0058-2.5155-.0058-3.7734-.0058-1.2578 0-2.5157 0-3.7734-.0059 0-.4689-.0007-.9378-.0014-1.4066-.0022-1.4063-.0044-2.8123.0131-4.2188.198-1.0834 1.3158-1.9104 2.3992-1.8403h5.1476c.0117-2.8069.0117-5.602 0-8.4089-.6636 0-1.3273-.0007-1.9911-.0014-1.9915-.0022-3.9832-.0044-5.975.0131Z" fill="#ffffff"></path></svg></a>
+                    <a href="#"><svg class="t-sociallinks__svg" width="30px" height="30px" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"> <path fill-rule="evenodd" clip-rule="evenodd" d="M50 100C77.6142 100 100 77.6142 100 50C100 22.3858 77.6142 0 50 0C22.3858 0 0 22.3858 0 50C0 77.6142 22.3858 100 50 100ZM25 39.3918C25 31.4558 31.4566 25 39.3918 25H60.6082C68.5442 25 75 31.4566 75 39.3918V60.8028C75 68.738 68.5442 75.1946 60.6082 75.1946H39.3918C31.4558 75.1946 25 68.738 25 60.8028V39.3918ZM36.9883 50.0054C36.9883 42.8847 42.8438 37.0922 50.0397 37.0922C57.2356 37.0922 63.0911 42.8847 63.0911 50.0054C63.0911 57.1252 57.2356 62.9177 50.0397 62.9177C42.843 62.9177 36.9883 57.1252 36.9883 50.0054ZM41.7422 50.0054C41.7422 54.5033 45.4641 58.1638 50.0397 58.1638C54.6153 58.1638 58.3372 54.5041 58.3372 50.0054C58.3372 45.5066 54.6145 41.8469 50.0397 41.8469C45.4641 41.8469 41.7422 45.5066 41.7422 50.0054ZM63.3248 39.6355C65.0208 39.6355 66.3956 38.2606 66.3956 36.5646C66.3956 34.8687 65.0208 33.4938 63.3248 33.4938C61.6288 33.4938 60.2539 34.8687 60.2539 36.5646C60.2539 38.2606 61.6288 39.6355 63.3248 39.6355Z" fill="#ffffff"></path></svg></a>
+                </div>
+
+                <div class="header__right-lang">
+                    <a href="#">Укр</a>
+                    <a href="#" class="">Рус</a>
+                </div>
+            </div>
+        </div>
+        <div class="humburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+    </header>
+
+    <main>
+
+        <section class="big-slider">
+           
+            <div class="big-slider-block">
+                <div class="big-slider-block__item big-slider-block__item_sl1">
+                    <div class="big-slider-block__item-text">
+                        <h1 class="h1_big-slider-title">Лісовий квартал</h1>
+                        <p class="big-slider-block__item-descr">Комфортне життя в гармонії з природою</p>
+                        
+                    </div>
+                </div>
+
+                <div class="big-slider-block__item big-slider-block__item_sl2">
+                    <div class="big-slider-block__item-text">
+                        <h1 class="h1_big-slider-title">Лісовий квартал</h1>
+                        <p class="big-slider-block__item-descr">В самому серці міста Бровари</p>
+                    </div>
+                </div>
+                <div class="big-slider-block__item big-slider-block__item_sl3">
+                    <div class="big-slider-block__item-text">
+                        <h1 class="h1_big-slider-title">Лісовий квартал</h1>
+                        <p class="big-slider-block__item-descr">Лише 15 хвилин від Києва</p>
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <section class="about-proj">
+            <div class="container">
+                <h2 class="h2 h2_center to-top_dote">Про проект</h2>
+
+                <div class="about-proj__text to-top_dote">
+                    <p>Останній будинок легендарного проєкту комфорт-класу «Лісовий квартал» в самому центрі міста Бровари. Жити життям, сповненим відпочинком, прогулянками та міцним здоров’ям, легко, якщо твій будинок розташований поряд з сосновим парком та розвиненою міською інфраструктурою.</p>
+                    <br>
+                    <p>В житловому комплексі «Лісовий квартал» особлива атмосфера добросусідських відносин. Тут вирує життя й народжуються ідеї, тут ростуть талановиті діти та живуть щасливі дорослі. Професійний ландшафтний дизайн додає затишку внутрішнім просторам, а малеча безпечно грається на різноманітних дитячих майданчиках й відвідує дитячий садок, що просто у дворі комплексу. Тут безпека не просто слова, а перевірена роками надійна технологія будівництва й цілодобовий відеонагляд за територією. Лісовий квартал — місце вашого комфортного життя!</p>
+                </div>
+            
+            </div>
+
+        </section>
+
+        <section class="characteristic">
+            <div class="container container_1100">
+                <h2 class="h2 h2_center to-top_dote">ТЕХНІЧНІ ХАРАКТЕРИСТИКИ</h2>
+
+                <div class="characteristic__block">
+                    <div class="char-item to-top_dote">
+                        <div class="char-item__icon">
+                            <img src="img/home/charac/tex-1.png" alt="icon">
+                        </div>
+                        <div class="char-item__title">Клас будівництва – комфорт плюс</div>
+                    </div>
+
+                    <div class="char-item to-top_dote">
+                        <div class="char-item__icon">
+                            <img src="img/home/charac/tex-2.svg" alt="icon">
+                        </div>
+                        <div class="char-item__title">Клас будівництва – комфорт плюс</div>
+                    </div>
+
+                    <div class="char-item to-top_dote">
+                        <div class="char-item__icon">
+                            <img src="img/home/charac/tex-3.svg" alt="icon">
+                        </div>
+                        <div class="char-item__title">Клас будівництва – комфорт плюс</div>
+                    </div>
+
+                    <div class="char-item to-top_dote">
+                        <div class="char-item__icon">
+                            <img src="img/home/charac/tex-4.svg" alt="icon">
+                        </div>
+                        <div class="char-item__title">Клас будівництва – комфорт плюс</div>
+                    </div>
+
+                    <div class="char-item to-top_dote">
+                        <div class="char-item__icon">
+                            <img src="img/home/charac/tex-5.png" alt="icon">
+                        </div>
+                        <div class="char-item__title">Клас будівництва – комфорт плюс</div>
+                    </div>
+
+                    <div class="char-item to-top_dote">
+                        <div class="char-item__icon">
+                            <img src="img/home/charac/tex-6.png" alt="icon">
+                        </div>
+                        <div class="char-item__title">Клас будівництва – комфорт плюс</div>
+                    </div>
+
+                    <div class="char-item to-top_dote">
+                        <div class="char-item__icon">
+                            <img src="img/home/charac/tex-7.png" alt="icon">
+                        </div>
+                        <div class="char-item__title">Клас будівництва – комфорт плюс</div>
+                    </div>
+
+                    <div class="char-item to-top_dote">
+                        <div class="char-item__icon">
+                            <img src="img/home/charac/tex-8.png" alt="icon">
+                        </div>
+                        <div class="char-item__title">Клас будівництва – комфорт плюс</div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="benefit">
+            <div class="container">
+                <h2 class="h2 benefit_h2 left-to-right_dote">Переваги</h2>
+
+            <div class="benefit__block right-to-left_dote">
+
+                <div class="benefit-item">
+                    <div class="benefit-item__icon">
+                        <img src="img/home/benefit/per-1.png" alt="icon">
+                    </div>
+                    <div class="benefit-item__title">Ідеальна локація</div>
+                    <div class="benefit-item__descr">Тут зелене передмістя зустрічається із затишком лісопаркової зони. ЖК «Лісовий квартал» розташований за... <a class="modallink" href="#">детальніше</a></div>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-item__icon">
+                        <img src="img/home/benefit/per-2.png" alt="icon">
+                    </div>
+                    <div class="benefit-item__title">Піша доступність</div>
+                    <div class="benefit-item__descr">Всього за кілька кроків від житлового комплексу знаходиться найбільший парк міста та мальовничий... <a class="modallink" href="#">детальніше</a></div>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-item__icon">
+                        <img src="img/home/benefit/per-3.png" alt="icon">
+                    </div>
+                    <div class="benefit-item__title">Абсолютна безпека</div>
+                    <div class="benefit-item__descr">При будівництві житлового комплексу застосований найнадійніший з можливих монолітно-каркасний...<a class="modallink" href="#">детальніше</a></div>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-item__icon">
+                        <img src="img/home/benefit/per-4.png" alt="icon">
+                    </div>
+                    <div class="benefit-item__title">Атмосфера затишку й комфорту</div>
+                    <div class="benefit-item__descr">На перших поверхах комплексу передбачені просторі холи. Освітлення з м'яким та теплим світлом...<a class="modallink" href="#">детальніше</a></div>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-item__icon">
+                        <img src="img/home/benefit/per-5.png" alt="icon">
+                    </div>
+                    <div class="benefit-item__title">Яскраве дитинство</div>
+                    <div class="benefit-item__descr">В комплексі збудовано сучасний дитячий садок з неповторною архітектурою та дизайном...<a class="modallink" href="#">детальніше</a></div>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-item__icon">
+                        <img src="img/home/benefit/per-6.png" alt="icon">
+                    </div>
+                    <div class="benefit-item__title">Простори для життя</div>
+                    <div class="benefit-item__descr">Кожна квартира – функціональний простір для втілення ваших уявлень про щасливе життя...<a class="modallink" href="#">детальніше</a></div>
+                </div>
+            </div> 
+            
+            </div>
+<!----------------------Модальные окна Подробнее в преимуществах -->
+
+           <div class="benefit-mod-more-info">
+                <div class="benefit-mod-more-info__block">
+                    <div class="benefit-mod-more-info__block-img">
+                        <img src="img/home/benefit/mod-img.jpg" alt="home">
+                    </div>
+                    <div class="benefit-mod-more-info__block-text">
+                        <div class="benefit-mod-more-info__block-title">Ідеальна локація</div>
+                        <div class="benefit-mod-more-info__block-descr">Тут зелене передмістя зустрічається із затишком лісопаркової зони. ЖК «Лісовий квартал» розташований за декілька кілометрів від Києва, в самому серці Броварів. Завдяки такому розташуванню, ви всього за 10-15 хвилин дістанетеся столиці, а близькість до природи подарує вам можливість абстрагуватися від шуму мегаполіса й насолодитися тишею зеленого передмістя.</div>
+                        <a class="benefit-mod-more-info__block-btn" href="#">Отримати консультацію</a>
+                    </div>
+                    
+                </div>
+                <div class="benefit-mod-more-info__block-close"><svg role="presentation" class="t-popup__close-icon" width="23px" height="23px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="#fff" fill-rule="evenodd"><rect transform="translate(11.313708, 11.313708) rotate(-45.000000) translate(-11.313708, -11.313708) " x="10.3137085" y="-3.6862915" width="2" height="30"></rect><rect transform="translate(11.313708, 11.313708) rotate(-315.000000) translate(-11.313708, -11.313708) " x="10.3137085" y="-3.6862915" width="2" height="30"></rect></g></svg></div>
+                
+            </div>
+
+
+
+            <div class="benefit-mod-more-info">
+                <div class="benefit-mod-more-info__block">
+                    <div class="benefit-mod-more-info__block-img">
+                        <img src="img/home/benefit/mod-img.jpg" alt="home">
+                    </div>
+                    <div class="benefit-mod-more-info__block-text">
+                        <div class="benefit-mod-more-info__block-title">Піша доступність</div>
+                        <div class="benefit-mod-more-info__block-descr">Всього за кілька кроків від житлового комплексу знаходиться найбільший парк міста та мальовничий сосновий бір, ніби спеціально створений для ранкових пробіжок, прогулянок з дітьми й відпочинку. На такій же комфортній відстані розташовані школи, медичні установи, супермаркети, кав’ярні й всі необхідні торговельно-сервісні підприємства.</div>
+                        <a class="benefit-mod-more-info__block-btn" href="#">Отримати консультацію</a>
+                    </div>
+                    
+                </div>
+                <div class="benefit-mod-more-info__block-close"><svg role="presentation" class="t-popup__close-icon" width="23px" height="23px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="#fff" fill-rule="evenodd"><rect transform="translate(11.313708, 11.313708) rotate(-45.000000) translate(-11.313708, -11.313708) " x="10.3137085" y="-3.6862915" width="2" height="30"></rect><rect transform="translate(11.313708, 11.313708) rotate(-315.000000) translate(-11.313708, -11.313708) " x="10.3137085" y="-3.6862915" width="2" height="30"></rect></g></svg></div>
+            </div>
+
+            <div class="benefit-mod-more-info">
+                <div class="benefit-mod-more-info__block">
+                    <div class="benefit-mod-more-info__block-img">
+                        <img src="img/home/benefit/mod-img.jpg" alt="home">
+                    </div>
+                    <div class="benefit-mod-more-info__block-text">
+                        <div class="benefit-mod-more-info__block-title">Абсолютна безпека</div>
+                        <div class="benefit-mod-more-info__block-descr">Для будівництва житлового комплексу «Лісовий квартал» застосований один із найнадійніших типів конструкцій — монолітно-каркасний. Він гарантує довговічність, стійкість до сейсмічної активності та вогнестійкість. На цокольному поверсі будинку розташовані спеціальні, відповідно обладнані, приміщення для безпечного перебування мешканців на випадок надзвичайної ситуації.</div>
+                        <a class="benefit-mod-more-info__block-btn" href="#">Отримати консультацію</a>
+                    </div>
+                    
+                </div>
+                <div class="benefit-mod-more-info__block-close"><svg role="presentation" class="t-popup__close-icon" width="23px" height="23px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="#fff" fill-rule="evenodd"><rect transform="translate(11.313708, 11.313708) rotate(-45.000000) translate(-11.313708, -11.313708) " x="10.3137085" y="-3.6862915" width="2" height="30"></rect><rect transform="translate(11.313708, 11.313708) rotate(-315.000000) translate(-11.313708, -11.313708) " x="10.3137085" y="-3.6862915" width="2" height="30"></rect></g></svg></div>
+            </div>
+
+            <div class="benefit-mod-more-info">
+                <div class="benefit-mod-more-info__block">
+                    <div class="benefit-mod-more-info__block-img">
+                        <img src="img/home/benefit/mod-img.jpg" alt="home">
+                    </div>
+                    <div class="benefit-mod-more-info__block-text">
+                        <div class="benefit-mod-more-info__block-title">Атмосфера затишку й комфорту</div>
+                        <div class="benefit-mod-more-info__block-descr">На перших поверхах комплексу передбачені просторі холи. Освітлення з м'яким та теплим світлом підкреслить атмосферу затишку й гармонії. Тут розмістяться офісні та комерційні приміщення. Безпеку та спокій гарантуватиме цілодобовий відеонагляд на всій території комплексу. А для комфорту автовласників передбачено індивідуальний паркінг.</div>
+                        <a class="benefit-mod-more-info__block-btn" href="#">Отримати консультацію</a>
+                    </div>
+                    
+                </div>
+                <div class="benefit-mod-more-info__block-close"><svg role="presentation" class="t-popup__close-icon" width="23px" height="23px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="#fff" fill-rule="evenodd"><rect transform="translate(11.313708, 11.313708) rotate(-45.000000) translate(-11.313708, -11.313708) " x="10.3137085" y="-3.6862915" width="2" height="30"></rect><rect transform="translate(11.313708, 11.313708) rotate(-315.000000) translate(-11.313708, -11.313708) " x="10.3137085" y="-3.6862915" width="2" height="30"></rect></g></svg></div>
+            </div>
+
+            <div class="benefit-mod-more-info">
+                <div class="benefit-mod-more-info__block">
+                    <div class="benefit-mod-more-info__block-img">
+                        <img src="img/home/benefit/mod-img.jpg" alt="home">
+                    </div>
+                    <div class="benefit-mod-more-info__block-text">
+                        <div class="benefit-mod-more-info__block-title">Яскраве дитинство</div>
+                        <div class="benefit-mod-more-info__block-descr">В комплексі функціонує сучасний дитячий садок з авторською архітектурою та дизайном. Загальна площа будівлі 2000 м2, розрахована на 6 груп. Озеленена територія садочка з якісним ландшафтним дизайном, як і вся територія «Лісового кварталу», оснащена сучасними ігровими та спортивним майданчиками.</div>
+                        <a class="benefit-mod-more-info__block-btn" href="#">Отримати консультацію</a>
+                    </div>
+                    
+                </div>
+                <div class="benefit-mod-more-info__block-close"><svg role="presentation" class="t-popup__close-icon" width="23px" height="23px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="#fff" fill-rule="evenodd"><rect transform="translate(11.313708, 11.313708) rotate(-45.000000) translate(-11.313708, -11.313708) " x="10.3137085" y="-3.6862915" width="2" height="30"></rect><rect transform="translate(11.313708, 11.313708) rotate(-315.000000) translate(-11.313708, -11.313708) " x="10.3137085" y="-3.6862915" width="2" height="30"></rect></g></svg></div>
+            </div>
+
+            <div class="benefit-mod-more-info">
+                <div class="benefit-mod-more-info__block">
+                    <div class="benefit-mod-more-info__block-img">
+                        <img src="img/home/benefit/mod-img.jpg" alt="home">
+                    </div>
+                    <div class="benefit-mod-more-info__block-text">
+                        <div class="benefit-mod-more-info__block-title">Простори для життя</div>
+                        <div class="benefit-mod-more-info__block-descr">Кожна квартира житлового комплексу «Лісовий квартал» — це функціональний простір для втілення найсміливіших уявлень про щасливе життя. Якісне утеплення фасадів мінеральною ватою забезпечує комфортний мікроклімат в помешканнях, а декоративна штукатурка надає будівлі сучасного вигляду. Просторі вікна наповнюватимуть оселю сонячним світлом та відкриватимуть неповторні панорами зеленого міста. Продумані планування дозволять створити простір, в якому знайдеться місце для сну, відпочинку, роботи, заняття спортом тощо.</div>
+                        <a class="benefit-mod-more-info__block-btn" href="#">Отримати консультацію</a>
+                    </div>
+                    
+                </div>
+                <div class="benefit-mod-more-info__block-close"><svg role="presentation" class="t-popup__close-icon" width="23px" height="23px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="#fff" fill-rule="evenodd"><rect transform="translate(11.313708, 11.313708) rotate(-45.000000) translate(-11.313708, -11.313708) " x="10.3137085" y="-3.6862915" width="2" height="30"></rect><rect transform="translate(11.313708, 11.313708) rotate(-315.000000) translate(-11.313708, -11.313708) " x="10.3137085" y="-3.6862915" width="2" height="30"></rect></g></svg></div>
+            </div>
+
+        </section>
+
+ 
+        <section class="city">
+            <div class="container">
+                <div class="city__block">
+                    <ul class="city__list">
+                        <li class="city__item to-top_dote">13 будинків</li>
+                        <li class="city__item to-top_dote">25 поверхів</li>
+                        <li class="city__item to-top_dote">2 багаторівневі паркінги</li>
+                        <li class="city__item to-top_dote">Власний паркінг будинку</li>
+                        <li class="city__item to-top_dote">Дитячий садок</li>
+                        <li class="city__item to-top_dote">Дитячі майданчики</li>
+                        <li class="city__item to-top_dote">Спортивні майданчики</li>
+                        <li class="city__item to-top_dote">Інфраструктура міста</li>
+                        <li class="city__item to-top_dote">м. Лісова – 15 хв на авто</li>
+                        <li class="city__item to-top_dote">Поруч ліс та парк</li>
+                        <li class="city__item to-top_dote">ТРЦ «Термінал» — 5 хв на авто</li>
+                        
+                    </ul>
+            </div>
+            </div>
+        </section>
+        
+        <section class="gallery">
+            <div class="container">
+                <h2 class="h2 h2_center  to-top_dote">Галерея</h2>
+                
+                <div class="gallery__wrapper">
+
+                    <div class="gallery__item gallery__item_g1 left-to-right_dote"><img src="img/home/gallery/gal-1.jpg" alt="gallery home"></div>
+                    <div class="gallery__item gallery__item_g2 left-to-right_dote"><img src="img/home/gallery/gal-2.jpg" alt="gallery home"></div>
+                    <div class="gallery__item gallery__item_g3 to-top_dote"><img src="img/home/gallery/gal-3.jpg" alt="gallery home"></div>
+                    <div class="gallery__item gallery__item_g4 right-to-left_dote"><img src="img/home/gallery/gal-4.jpg" alt="gallery home"></div>
+                    <div class="gallery__item gallery__item_g5 right-to-left_dote"><img src="img/home/gallery/gal-5.jpg" alt="gallery home"></div>
+                    <div class="gallery__item gallery__item_g6 right-to-left_dote"><img src="img/home/gallery/gal-6.jpg" alt="gallery home"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-dev">
+            <div class="container">
+                
+                <div class="about-dev__text">
+                    <h2 class="h2 about-dev_h2">Про девелопера</h2>
+                    <p>Аlliance Novobud — надійний девелопер прогресивної формації. Понад 18 років працюємо на будівельному ринку Києва та області. Проєктуємо й будуємо осмислені житлові простори для життя, відпочинку та самореалізації.
+                        <br>Усі проєкти Аlliance Novobud — витвори будівельного мистецтва, кращі зразки міських та заміських житлових просторів класу комфорт+ й бізнес-класу.
+                        <br>Запорука нашого успіху — якісне будівництво за новітніми технологіями, просторі прибудинкові території з професійним озелененням та зонами для відпочинку, розвинута соціальна інфраструктура для зручного життя. Ми поважаємо та любимо справу, якою займаємося!</p>
+                </div>
+
+                <div class="about-dev__info-block">
+                    <div class="about-dev__item">
+                        <div class="about-dev__item-title"><span data-digits-counter>18</span>+</div>
+                        <div class="about-dev__item-descr">щасливих сімей та інвесторів</div>
+                    </div>
+
+                    <div class="about-dev__item">
+                        <div class="about-dev__item-title" data-digits-counter>10000</div>
+                        <div class="about-dev__item-descr">років досвіду та довіри покупців</div>
+                    </div>
+
+                    <div class="about-dev__item">
+                        <div class="about-dev__item-title"><span data-digits-counter>100</span>+</div>
+                        <div class="about-dev__item-descr">професіоналів у команді</div>
+                    </div>
+
+                    <div class="about-dev__item">
+                        <div class="about-dev__item-title"><span data-digits-counter>300</span>+</div>
+                        <div class="about-dev__item-descr">тис. кв. м введеного в експлуатацію житла</div>
+                    </div>
+
+                    <div class="about-dev__item">
+                        <div class="about-dev__item-title"><span data-digits-counter>450</span>+</div>
+                        <div class="about-dev__item-descr">тис. кв. м житла в процесі будівництва</div>
+                    </div>
+
+                    
+                    <div class="about-dev__item">
+                        <div class="about-dev__item-title" data-digits-counter>3</div>
+                        <div class="about-dev__item-descr">повністю реалізованих проекти</div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+       <section class="planning">
+            <div class="container">
+                <h2 class="h2 h2_center">Планування</h2>
+
+                <div class="planning-tabs">
+
+                    <div class="planning-tabs__tab">
+                        <div class="planning-tabs__tab-item">1 кімнатні</div>
+                        <div class="planning-tabs__tab-item">2 кімнатні</div>
+                    </div>
+
+                    <div class="slider-wraper">
+                        <div class="planning-tabs-slider-1">
+
+                            <div class="room-item">
+                                <div class="room-item__img">
+                                    <img src="img/home/rooms/r-1-1.png" alt="room">
+                                </div>
+                                <div class="room-item__title">Квартира 1</div>
+                                <div class="room-item__flat-type">Кімнати - 1</div>
+                                <div class="room-item__flat-square">Загальна пл. - 35,68 м2</div>
+                                <a class="room-item__btn" href="#">Детальніше</a>
+                            </div>
+                            <div class="room-item">
+                                <div class="room-item__img">
+                                    <img src="img/home/rooms/r-1-2.png" alt="room">
+                                </div>
+                                <div class="room-item__title">Квартира 2</div>
+                                <div class="room-item__flat-type">Кімнати - 1</div>
+                                <div class="room-item__flat-square">Загальна пл. - 38,49 м2</div>
+                                <a class="room-item__btn" href="#">Детальніше</a>
+                            </div>
+                            <div class="room-item">
+                                <div class="room-item__img">
+                                    <img src="img/home/rooms/r-1-3.png" alt="room">
+                                </div>
+                                <div class="room-item__title">Квартира 3</div>
+                                <div class="room-item__flat-type">Кімнати - 1</div>
+                                <div class="room-item__flat-square">Загальна пл. - 40,88 м2</div>
+                                <a class="room-item__btn" href="#">Детальніше</a>
+                            </div>
+                            <div class="room-item">
+                                <div class="room-item__img">
+                                    <img src="img/home/rooms/r-1-4.png" alt="room">
+                                </div>
+                                <div class="room-item__title">Квартира 4</div>
+                                <div class="room-item__flat-type">Кімнати - 1</div>
+                                <div class="room-item__flat-square">Загальна пл. - 41,07 м2</div>
+                                <a class="room-item__btn" href="#">Детальніше</a>
+                            </div>
+                            <div class="room-item">
+                                <div class="room-item__img">
+                                    <img src="img/home/rooms/r-1-5.png" alt="room">
+                                </div>
+                                <div class="room-item__title">Квартира 5</div>
+                                <div class="room-item__flat-type">Кімнати - 1</div>
+                                <div class="room-item__flat-square">Загальна пл. - 41,52 м2</div>
+                                <a class="room-item__btn" href="#">Детальніше</a>
+                            </div>
+                            <div class="room-item">
+                                <div class="room-item__img">
+                                    <img src="img/home/rooms/r-1-6.png" alt="room">
+                                </div>
+                                <div class="room-item__title">Квартира 6</div>
+                                <div class="room-item__flat-type">Кімнати - 1</div>
+                                <div class="room-item__flat-square">Загальна пл. - 41,63 м2</div>
+                                <a class="room-item__btn" href="#">Детальніше</a>
+                            </div>
+                            <div class="room-item">
+                                <div class="room-item__img">
+                                    <img src="img/home/rooms/r-1-7.png" alt="room">
+                                </div>
+                                <div class="room-item__title">Квартира 7</div>
+                                <div class="room-item__flat-type">Кімнати - 1</div>
+                                <div class="room-item__flat-square">Загальна пл. - 41,94 м2</div>
+                                <a class="room-item__btn" href="#">Детальніше</a>
+                            </div>
+
+                        
+
+                        </div>
+
+                    </div>
+
+                    <div class="slider-wraper">
+                        <div class="planning-tabs-slider-2">
+
+                            <div class="room-item">
+                                <div class="room-item__img">
+                                    <img src="img/home/rooms/r-2-1.png" alt="room">
+                                </div>
+                                <div class="room-item__title">Квартира 1</div>
+                                <div class="room-item__flat-type">Кімнати - 2</div>
+                                <div class="room-item__flat-square">Загальна пл. - 62,25 м2</div>
+                                <a class="room-item__btn" href="#">Детальніше</a>
+                            </div>
+                            <div class="room-item">
+                                <div class="room-item__img">
+                                    <img src="img/home/rooms/r-2-2.png" alt="room">
+                                </div>
+                                <div class="room-item__title">Квартира 2</div>
+                                <div class="room-item__flat-type">Кімнати - 2</div>
+                                <div class="room-item__flat-square">Загальна пл. - 64,59 м2</div>
+                                <a class="room-item__btn" href="#">Детальніше</a>
+                            </div>
+                            <div class="room-item">
+                                <div class="room-item__img">
+                                    <img src="img/home/rooms/r-2-3.png" alt="room">
+                                </div>
+                                <div class="room-item__title">Квартира 3</div>
+                                <div class="room-item__flat-type">Кімнати - 2</div>
+                                <div class="room-item__flat-square">Загальна пл. - 65,7 м2</div>
+                                <a class="room-item__btn" href="#">Детальніше</a>
+                            </div>
+                            <div class="room-item">
+                                <div class="room-item__img">
+                                    <img src="img/home/rooms/r-2-4.png" alt="room">
+                                </div>
+                                <div class="room-item__title">Квартира 4</div>
+                                <div class="room-item__flat-type">Кімнати - 2</div>
+                                <div class="room-item__flat-square">Загальна пл. - 59,96 м2</div>
+                                <a class="room-item__btn" href="#">Детальніше</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="planning__btns">
+                    <a href="#" class="planning__btns-all">Всі планування</a>
+                    <a href="#" class="planning__btns-comerc">Комерційні приміщення</a>
+                </div>
+
+            </div>
+        </section>
+
+       <section class="news">
+            <div class="container">
+                <h2 class="h2 h2_center">Новини та акції</h2>
+
+                <div class="news__wrapper">
+
+                    <div class="news-item">
+                        <div class="news-item__img">
+                            <img src="img/home/news/new-1.jpg" alt="news">
+                        </div>
+                        <div class="news-item__title">Lorem ipsum dolor sit amet, consectetur</div>
+                        <div class="news-item__descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                        <a class="news-item__btn" href="#">Детальніше</a>
+                    </div>
+
+                    <div class="news-item">
+                        <div class="news-item__img">
+                            <img src="img/home/news/new-2.jpg" alt="news">
+                        </div>
+                        <div class="news-item__title">Lorem ipsum dolor sit amet, consectetur</div>
+                        <div class="news-item__descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                        <a class="news-item__btn" href="#">Детальніше</a>
+                    </div>
+
+                    <div class="news-item">
+                        <div class="news-item__img">
+                            <img src="img/home/news/new-3.jpg" alt="news">
+                        </div>
+                        <div class="news-item__title">Lorem ipsum dolor sit amet, consectetur</div>
+                        <div class="news-item__descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                        <a class="news-item__btn" href="#">Детальніше</a>
+                    </div>
+
+                </div>
+
+                <div class="news__btn-more">Показати більше</div>
+
+
+
+            </div>
+        </section>
+
+       <section class="view-form">
+            <div class="container">
+                <h2 class="h2 h2_center view-form__h2">Поставити питання або <br>записатися на перегляд</h2>
+
+                <form class="view-form-block" action="#">
+                    <div class="view-form-block__title to-top_dote">Заповніть форму</div>
+                    <input class="view-form-block__input" type="text" name="form-name" placeholder="Введіть ваше імя">
+                    <input required class="view-form-block__input" name="form-tel" type="tel" placeholder="+380 (99) 999-99-99">
+                    <input required class="view-form-block__input" name="form-question" type="text" placeholder="Введіть Ваше запитання">
+                    <button class="view-form-block__btn">Відправити</button>
+                </form>
+
+            </div>
+        </section>
+
+       <section class="map">
+            <div class="map__block left-to-right_dote">
+                <div class="map__block-title">Офіс продажу</div>
+                <div class="map__block-adress">м. Бровари, вул. В. Чорновола, 8A</div>
+                <a href="tel:+380440000000" class="map__block-info map__block-info-tel">+38 (044) 000 00 00</a>
+                <div class="map__block-info map__block-info-mail">info@l-kvartal.com.ua</div>
+                <div class="map__block-info">Пн. - Птн.: 9:00-19:00</div>
+                <div class="map__block-info">Сб. - Нд.: 10:00-17:00</div>
+
+                <div class="map__block-soc">
+                    <a href="#"><svg class="t-sociallinks__svg" width="30px" height="30px" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"> <path fill-rule="evenodd" clip-rule="evenodd" d="M50 100c27.6142 0 50-22.3858 50-50S77.6142 0 50 0 0 22.3858 0 50s22.3858 50 50 50Zm3.431-73.9854c-2.5161.0701-5.171.6758-7.0464 2.4577-1.5488 1.4326-2.329 3.5177-2.5044 5.602-.0534 1.4908-.0458 2.9855-.0382 4.4796.0058 1.1205.0115 2.2407-.0085 3.3587-.6888.005-1.3797.0036-2.0709.0021-.9218-.0019-1.8441-.0038-2.7626.0096 0 .8921.0013 1.7855.0026 2.6797.0026 1.791.0052 3.5853-.0026 5.3799.9185.0134 1.8409.0115 2.7627.0096.6912-.0015 1.382-.0029 2.0708.0021.0155 3.5565.0127 7.1128.0098 10.669-.0036 4.4452-.0072 8.8903.0252 13.3354 1.8903-.0134 3.7765-.0115 5.6633-.0095 1.4152.0014 2.8306.0028 4.2484-.0022.0117-4.0009.0088-7.9986.0058-11.9963-.0029-3.9979-.0058-7.9957.0059-11.9964.9533-.005 1.9067-.0036 2.86-.0021 1.2713.0019 2.5425.0038 3.8137-.0096.396-2.679.7335-5.3814.9198-8.0947-1.2576-.0058-2.5155-.0058-3.7734-.0058-1.2578 0-2.5157 0-3.7734-.0059 0-.4689-.0007-.9378-.0014-1.4066-.0022-1.4063-.0044-2.8123.0131-4.2188.198-1.0834 1.3158-1.9104 2.3992-1.8403h5.1476c.0117-2.8069.0117-5.602 0-8.4089-.6636 0-1.3273-.0007-1.9911-.0014-1.9915-.0022-3.9832-.0044-5.975.0131Z" fill="#ffffff"></path></svg></a>
+                    <a href="#"><svg class="t-sociallinks__svg" width="30px" height="30px" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"> <path fill-rule="evenodd" clip-rule="evenodd" d="M50 100C77.6142 100 100 77.6142 100 50C100 22.3858 77.6142 0 50 0C22.3858 0 0 22.3858 0 50C0 77.6142 22.3858 100 50 100ZM25 39.3918C25 31.4558 31.4566 25 39.3918 25H60.6082C68.5442 25 75 31.4566 75 39.3918V60.8028C75 68.738 68.5442 75.1946 60.6082 75.1946H39.3918C31.4558 75.1946 25 68.738 25 60.8028V39.3918ZM36.9883 50.0054C36.9883 42.8847 42.8438 37.0922 50.0397 37.0922C57.2356 37.0922 63.0911 42.8847 63.0911 50.0054C63.0911 57.1252 57.2356 62.9177 50.0397 62.9177C42.843 62.9177 36.9883 57.1252 36.9883 50.0054ZM41.7422 50.0054C41.7422 54.5033 45.4641 58.1638 50.0397 58.1638C54.6153 58.1638 58.3372 54.5041 58.3372 50.0054C58.3372 45.5066 54.6145 41.8469 50.0397 41.8469C45.4641 41.8469 41.7422 45.5066 41.7422 50.0054ZM63.3248 39.6355C65.0208 39.6355 66.3956 38.2606 66.3956 36.5646C66.3956 34.8687 65.0208 33.4938 63.3248 33.4938C61.6288 33.4938 60.2539 34.8687 60.2539 36.5646C60.2539 38.2606 61.6288 39.6355 63.3248 39.6355Z" fill="#ffffff"></path></svg></a>
+                </div>
+            </div>
+
+            
+                
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5222.642635634671!2d30.779445258317388!3d50.51589914813673!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4d97705764eed%3A0x9295703516ee669d!2z0JvRltGB0L7QstC40Lkg0LrQstCw0YDRgtCw0Ls!5e0!3m2!1suk!2sua!4v1663786350378!5m2!1suk!2sua" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+        </section>
+
+        <!--    ------------------------Модальные окна Контактная форма -->
+        <div class="contact-popup-form">
+                <div class="contact-popup-form__block">
+                    <div class="contact-popup-form__logo">
+                        <img src="img/logo-for-form.png" alt="home">
+                    </div>
+
+                    <div class="contact-popup-form__title">Зв'язатися з менеджером</div>
+                    <div class="contact-popup-form__descr">Заповніть форму і наш менеджер зв'яжеться з вами найближчим часов</div>
+                        
+                    <form class="contact-popup-form__form" action="#">
+                        <input required class="contact-popup-form__form-input" name="user-name" type="text" placeholder="Імя">
+                        <input required class="contact-popup-form__form-input" name="user-phone" type="tel"  placeholder="+380(99) 999-99-99">
+                        <button class="contact-popup-form__form-btn">Отримати консультацію</button>
+                    </form>
+
+                </div>
+                <div class="contact-popup-form__block-close"><svg role="presentation" class="t-popup__close-icon" width="23px" height="23px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="#fff" fill-rule="evenodd"><rect transform="translate(11.313708, 11.313708) rotate(-45.000000) translate(-11.313708, -11.313708) " x="10.3137085" y="-3.6862915" width="2" height="30"></rect><rect transform="translate(11.313708, 11.313708) rotate(-315.000000) translate(-11.313708, -11.313708) " x="10.3137085" y="-3.6862915" width="2" height="30"></rect></g></svg></div>
+            </div>
+
+    </main>
+
+    
+
+ 
+    <footer class="footer">
+        <div class="footer__img-left">
+            <img src="img/lines.svg" alt="">
+        </div>
+
+
+        <div class="container container_1100">
+            <div class="footer__wrapper">
+
+                <div class="footer__logo-block">
+                    <img src="img/logo.png" alt="">
+                    <img src="img/logo-alyans.svg" alt="">
+                </div>
+
+                <div class="footer__menu-block">
+                    <ul class="footer__menu-links">
+                        <li class="footer__menu-item footer__menu-item_title">Меню</li>
+                        <li class="footer__menu-item"><a href="#">Про проект</a></li>
+                        <li class="footer__menu-item"><a href="#">Переваги</a></li>
+                        <li class="footer__menu-item"><a href="#">ХІд будівництва</a></li>
+                        <li class="footer__menu-item"><a href="#">Новини</a></li>
+                        <li class="footer__menu-item"><a href="#">Галерея</a></li>
+                        <li class="footer__menu-item"><a href="#">Планування</a></li>
+                        <li class="footer__menu-item"><a href="#">Контакти</a></li>
+                        
+                    </ul>
+
+                    <ul class="footer__menu-links">
+                        <li class="footer__menu-item footer__menu-item_title">Контакти</li>
+                        <li class="footer__menu-item"><a href="#">Facebook</a></li>
+                        <li class="footer__menu-item"><a href="#">Instagram</a></li>
+                        <li class="footer__menu-item"><a href="#">Youtube</a></li>
+                        <li class="footer__menu-item footer__menu-item_top"><a href="tel:+3804400000">+38 (044) 000 00 00</a></li>
+                        <li class="footer__menu-item"><a href="#">info@l-kvartal.com.ua</a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+
+        </div>
+    </footer>
+
+
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
